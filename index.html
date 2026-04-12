@@ -1,6 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Australia Travel Blog</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f6f8;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e88e5, #42a5f5);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 42px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      margin: 20px 0;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.01);
+    }
+
+    .card img {
+      width: 100%;
+      display: block;
+    }
+
+    .content {
+      padding: 15px;
+    }
+
+    .content h2 {
+      margin-top: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: gray;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
 <body>
-  <h1>It works 🎉</h1>
+
+<header>
+  <h1>🇦🇺 Australia Travel Blog</h1>
+  <p>Our journey across beaches, roads, and outback adventures</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <img src="photo1.jpg" alt="Trip 1">
+    <div class="content">
+      <h2>Great Ocean Road</h2>
+      <p>Cliffs, ocean views, and one of the most beautiful drives in the world.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="photo2.jpg" alt="Trip 2">
+    <div class="content">
+      <h2>Uluru</h2>
+      <p>A breathtaking sunset in the heart of Australia.</p>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  Built with ❤️ using GitHub Pages
+</footer>
+
 </body>
 </html>
